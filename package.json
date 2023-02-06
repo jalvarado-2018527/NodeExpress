@@ -1,14 +1,21 @@
 {
-  "name": "projecto-node-spress",
+  "name": "rest-api-server",
   "version": "1.0.0",
-  "description": "proyecto de ejemplo servidor con express",
-  "main": "app.js",
+  "description": "Rest Api Server con Express para NodeJs INBV",
+  "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ELPOKEJAIRO",
+  "author": "Jairo Alvarado",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
   }
 }
